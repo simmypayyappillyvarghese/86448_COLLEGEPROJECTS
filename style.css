@@ -1,0 +1,1378 @@
+/*
+#Author:Simmy Payyappilly Varghese
+#ID:86448
+#Created by:07/29/2015
+/*
+/*Below style will be default to all pages*/
+body{
+	background-color:#E6E6FA;			/*Assignment2:Changed the background color to lavender*/
+	color:#228B22;                      /*Assignment2:Changed the  color to forest-green*/
+	font-family:DEVROYE_,Times New Roman,Arial, Helvetica,sans-serif;
+	font-size:16px;
+	font-style:normal;
+	font-weight:normal;
+	line-height:200%;
+	text-align:justify;                 /*Alignment :Applied*/         	 
+	
+}
+ 
+ /*Assignment2:Changes-Extra features added to body of index page background-image and other styles*/
+#indexID                                                           
+{
+	background-image:url('http://b21d27e0a6cdff36ac3d-f6369f8d99b71d371b37e2bc9ed9c41d.r61.cf2.rackcdn.com/product-hugerect-273886-73312-1386772082-41d04e4e1c93ff4374b3374e3852973c.jpg'); 
+	background-size:2000px ;
+	background-position:center;
+	background-repeat:no-repeat;
+
+}
+
+#indexID section{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:wrap;
+  justify-content:space-around;
+
+}
+
+@font-face{
+	font-family:DEVROYE_;
+    src:url('DEVROYE_.ttf');
+}
+
+header{
+	background-color:#40E0D0;                /*Assignment2:Added the background color of header to turquoise*/
+	margin: 1px 1px 1px 1px;
+	height:190px;
+}
+/*Added logo to header and style the image*/	
+header img{
+ height:80px;
+ 
+}	
+h1 {
+ font-style:italic;
+ font-family:GreatVibes-Regular,"Times New Roman",Arial,sans-serif;
+ line-height:5%;                     /*Assignment2:Added line height  for h1*/
+ font-size:50px;
+ text-align:center;
+ color:#228B22;                          /*Assignment2:Changed the  color of h1-forest-green*/
+}
+
+@font-face{                           /*Assignment2:Changed the font to GreatVibes using @font-face(CSS3) for h1*/   
+	font-family:GreatVibes-Regular;
+	src:url('GreatVibes-Regular_48.otf');
+}
+nav{
+	text-align:right;
+	
+}
+.homeID:link {
+	background-color:#2E8B57;       /*Assignment2:Changes-changed background color to seagreen*/
+	color:ivory;                    /*Assignment2:Changes-changed  color to ivory*/
+    text-decoration:none;
+}
+
+.homeID:visited{
+	background-color:#ADFF2F;      /*Assignment2:Changes-changed background color to greenyellow*/
+	
+}
+
+.homeID:hover{
+	background-color:#008000;      /*Assignment2:Changes-changed background color to olive*/
+	color:#ADFF2F;                 /*Assignment2:Changes-changed  color to greenyellow*/
+	text-decoration:overline;
+}
+
+.aboutID:link{
+	background-color:#F5F5DC;		/*Assignment2:Changes-changed  background color to beige*/
+	color:#00FFFF;					/*Assignment2:Changes-changed   color to cyan */
+
+}
+
+.aboutID:visited{
+	background-color:steelblue;       /*Assignment2:Changes-changed  background color to blue*/
+	color:linen;
+	}
+
+.aboutID:hover{
+	background-color:#483D8B;		/*Assignment2:Changes-changed  background color to darkslateblue*/
+	color:#DDA0DD;                  /*Assignment2:Changes-changed color to  plum*/
+	text-decoration:none;
+}
+
+.contID:link{
+	background-color:#D8BFD8;		/*Assignment2:Changes-changed  background color to thistle*/
+	color:#008000;                  /*Assignment2:Changes-Added color green*/
+	text-decoration:overline;
+}
+
+.contID:visited{
+	background-color:#E0FFFF;		/*Assignment2:Changes-changed  background color to thistle*/
+	color:#008080;                  /*Assignment2:Changes-Added color  teal*/
+}
+
+.contID:hover{
+	background-color:#00FF7F;	   /*Assignment2:Changes-changed  background color to purple*/
+	color:#808000;                /*Assignment2:Changes-changed   color to turquoise*/
+	text-decoration:underline;
+}
+
+.newID:link{
+	background-color:#2E8B57;		
+	color:ivory;
+	text-decoration:none;
+	
+}
+
+.newID:visited{
+	background-color:#ADFF2F;
+
+}
+.newID:hover{
+	background-color:#008000;		
+	color:#ADFF2F;
+	text-decoration:overline;
+
+}
+.supportID:link{
+	background-color:#F5F5DC;		
+	color:#00FFFF;
+	
+}
+
+.supportID:visited{
+	background-color:steelblue;		
+	color:linen;
+}
+.supportID:hover{
+	background-color:#483D8B;		
+	color:#DDA0DD;                  
+	text-decoration:none;
+
+}
+
+.faqID:link{
+	background-color:#D8BFD8;		
+	color:#008000;                  
+	text-decoration:overline;
+	
+}
+
+.faqID:visited{
+	background-color:#E0FFFF;		
+	color:#008080;                  
+}
+.faqID:hover{
+	background-color:#00FF7F;	   
+	color:#808000;                
+	text-decoration:underline;
+
+}
+.productID:link{
+	background-color:powderblue;		
+	color:purple;
+	text-decoration:overline;
+	
+}
+
+.productID:visited{
+	background-color:purple;		
+	color:powderblue;
+}
+.productID:hover{
+	background-color:powderblue;		
+	color:purple;
+	text-decoration:none;
+
+}
+.orderID:link{
+	background-color:darkolivegreen;		
+	color:lavender;
+	text-decoration:none;
+	
+}
+
+.orderID:visited{
+	background-color:lightgoldenrodyellow;		
+	color:mediumturquoise;
+}
+.orderID:hover{
+	background-color:mediumturquoise;		
+	color:lightgoldenrodyellow;
+	text-decoration:overline;
+
+}
+
+
+/*Assignment2:Changes-changed div's inline style to external style sheet*/
+div{
+
+	color:dodgerblue;                    /*Assignment2:Changes-changed color to dodger*/ 
+    font-size:20px;                      /*Assignment2:Changes-Added font-size*/	
+	 order:0;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+	
+	}
+#pineArticle{
+	order:0;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+}
+#leafArticle{
+	order:1;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+#coralArticle{
+	order:2;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+
+}
+#nestArticle{
+	order:3;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+}
+	
+	
+hr{
+    border:1px solid #00BFFF;            /*Assignment2:Changes-added hr styling*/ 
+	
+}
+
+h2{
+ font-family:DEVROYE_,"Times New Roman",Arial,sans-serif;
+ font-style:italic;
+ color:#800080;                           /*Assignment2:Changes-changed color to purple*/ 
+
+}
+h3{
+ font-family:DEVROYE_,"Times New Roman",Arial,sans-serif;
+ color:blue;
+}
+span{
+
+ font-style:italic ;
+ font-weight:bold ;
+color:teal;                             /*Assignment2:Changes-changed color to teal*/
+
+}
+/*Assignment2:Changes -Added p tag inside footer and applied style*/
+footer{
+
+	background-color:#40E0D0;
+}
+footer p{
+
+	color:#800080;
+	font-weight:bold;
+	text-align:center;
+}
+/*Styles applied to About Page */
+
+#aboutHeader{
+	background-color:#00CED1;                /*Assignment2:Added the background color of header to darkturquoise */
+	margin: 30px 1px 1px 1px;
+	height:270px; 
+ 	/*Added Image to header*/
+	background-image:url("http://i01.i.aliimg.com/wsphoto/v6/753435179_1/Simple-pearl-bracelets-stretch-bracelet-free-shipping-bow-Bracelets-Bangles-New-Style-Gold-Bowknot-Pearl-Bracelets.jpg_350x350.jpg");
+	background-size:100% 270px;
+	background-repeat:no-repeat;
+	order:0;
+	webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+	
+}
+
+#aboutHeader h1{
+
+	color:yellowgreen;
+	text-shadow:2px 2px white;
+}
+
+#aboutHeader nav{
+  
+	line-height:60px;
+	}
+
+/*Radial gradient applied to the background*/
+/*Assignment2:Added the background color of body to thistle*/
+#aboutBody{
+	background-color:#D8BFD8;         
+	background-image: -webkit-radial-gradient(circle,#FFFFFF 0%,#40E0D0 200%); 
+	background-image:-moz-radial-gradient(circle,#FFFFFF 0%,#40E0D0 200%);
+	background-image:radial-gradient(circle,#FFFFFF 0%, #40E0D0 200%);
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+-moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:wrap;
+  justify-content:space-around;  
+}
+#aboutSection hr{
+
+border:1px solid green;            /*Assignment2:Changes-added hr styling*/ 
+	
+}
+#aboutSection{
+	order:1;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex: 0 1 auto;
+}
+
+/*text and box shadow is applied to aside tags*/
+#aboutSection aside{
+	border-top:2px solid blue;
+	border-right:2px solid blue;
+	border-bottom:2px solid blue;
+	border-left:2px solid blue;
+	margin:10px 10px 10px 10px;
+	padding:2px 2px 2px 2px;
+	text-align:center;
+	color:purple;
+	width:500px;
+	height:80px;
+	float:right;
+	text-shadow:3px 3px 2px plum;
+	box-shadow:4px 4px 2px 2px cyan;
+
+}
+#aboutArticle aside{
+	border-top:2px solid purple;
+	border-right:2px solid purple;
+	border-bottom:2px solid purple;
+	border-left:2px solid purple;
+	margin:10px 10px 10px 10px;
+	padding:2px 2px 2px 2px;
+	text-align:center;
+	color:blue;
+	float:left;
+	width:500px;
+	height:80px;
+	text-shadow:3px 3px cyan;
+	box-shadow:4px 4px 2px 2px plum;
+
+}
+
+#aboutFoot{
+
+	background-color:lavender;   /*Assignment2:Added color to footer*/ 
+	order:2;
+	webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+}
+
+
+/*Contact Page specific tags*/
+
+#contactSection{
+
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+#LeftHead{
+	
+	order:0;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+#RightHead{
+	
+	order:1;
+	-webkit-flex:0 1 auto;
+	-mos-flex:0 1 auto;
+	flex:0 1 auto;
+}
+
+
+
+#contactHeader{
+	background-color:#40E0D0;                /*Assignment2:Added the background color of header to darkturquoise */
+	margin: 20px 1px 1px 1px;
+	height:140px;                            /*Added Image to header*/
+	
+
+}
+#contactBody hr{
+	border:1px solid purple;            /*Assignment2:Changes-added hr styling*/
+
+}
+
+#contactBody{
+	
+	background-color:rgb(224,255,255);      /*Assignment2:Added the background color of header to light cyan in rgb format */ 
+	
+	}
+#contactFoot{
+	height:80px;
+	background-color:#40E0D0;
+	}
+	
+#RightHead{
+	text-align:right;
+}
+/*Styling tags of New page*/
+
+
+/**Used rgba for background color*/
+#newBody{
+
+	background-color:hsla(240,100%, 50%, 0.2);       /*Assignment2:Added the background color of body in hsla format*/
+	width:100%;
+	height:100%;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:no-wrap;
+  justify-content:center;
+}
+#newHeader{
+	order:0;
+	-webkit-flex:0 1 auto;
+	-mos-flex:0 1 auto;
+	flex:0 1 auto;
+}
+
+#newSection{
+	order:1;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+#newFoot{
+	order:2;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+
+#newArticle1 h3{
+
+	color:darkcyan;
+}
+#newArticle1 ul{
+
+	color:purple;
+}
+#newArticle2 h5{
+
+	color:teal;
+}
+#newArticle2 p{
+
+color:darkcyan;
+}
+#newArticle3 h5{
+
+	color:purple;
+}
+#newArticle4 h5{
+
+	color:green;
+}
+
+/*CSS 3 property border-radius applied to images.Images are included as figures*/
+#figure1 img{
+border:1px solid turquoise;
+-moz-border-radius: 30% / 30%;
+-webkit-border-radius: 30% / 30%;
+border-radius: 30% / 30%;
+}
+
+#figure1{
+float:left;
+clear:right;
+}
+
+#figure1 figcaption{
+
+	text-align:center;
+}
+
+#figure2{
+
+float:right;
+}
+
+#figure2 img{
+height:230px;
+width:230px;
+border:1px solid turquoise;
+-moz-border-radius: 30% / 30%;
+-webkit-border-radius: 30% / 30%;
+border-radius: 30% / 30%;
+}
+#figure2 figcaption{
+
+	text-align:center;
+}
+#figure3{
+vertical-align:middle;
+}
+#figure3 figcaption{
+
+	text-align:center;
+}
+
+#figure3 img{
+
+border:1px solid turquoise;
+-moz-border-radius: 10% / 10%;
+-webkit-border-radius: 10% / 10%;
+border-radius: 10% / 10%;
+}
+
+#figure4{
+float:left;
+clear:right;
+}
+
+#figure4 figcaption{
+
+	text-align:center;
+}
+
+
+#figure4 img{
+border:1px solid purple;
+-moz-border-radius: 40% / 10%;
+-webkit-border-radius: 40% / 10%;
+border-radius: 40% / 10%;
+width:300px;
+height:300px;
+}
+#figure5{
+vertical-align:middle;
+}
+#figure5 figcaption{
+
+	text-align:left;
+}
+
+#figure5 img{
+
+border:1px solid purple;
+-moz-border-radius: 40% / 10%;
+-webkit-border-radius: 40% / 10%;
+border-radius: 40% / 10%;
+height:300px;
+width:300px;
+}
+
+#figure6{
+
+float:left;
+clear:right;
+}
+
+#figure6 img{
+border:1px solid green;
+-moz-border-radius: 10% / 50%;
+-webkit-border-radius: 10% / 50%;
+border-radius: 10% / 50%;
+width:250px;
+height:280px;
+vertical-align:middle;
+}
+#figure6 figcaption{
+
+	text-align:center;
+}
+
+
+#figure7 img{
+
+border:1px solid green;
+-moz-border-radius: 10% / 50%;
+-webkit-border-radius: 10% / 50%;
+border-radius: 20% / 30%;
+height:300px;
+}
+#figure7 figcaption{
+
+text-align:left;
+}
+
+/*psuedo classes used*/
+a:link{                                              /*Styling the hyperlink */
+	color:teal;
+}
+a:visited{
+	color:olive;
+}
+/*Styling tags in Support Page*/
+#supportBody{
+	background-color:#B0E0E6;                      /*Background color:powderblue*/
+    color:#008080;
+display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:no-wrap;
+  justify-content:space-around;
+	
+}
+#supportBody header{
+     order:0;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;}
+
+#supportBody section{
+	order:1;
+	-webkit-flex:0 1 auto;
+	-mos-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+#supportBody  footer{
+	order:2;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+#supportArt1 h4{
+	color:#800080;
+}
+#supportArt2 h4{
+
+	color:#00008B;
+}
+#supportArt2 {
+
+	color:#800080;
+}
+#supportArt3 h4{
+	color:#008080;
+} 
+#supportArt3 {
+
+	color:#0000FF;
+}
+#supportArt3Table{
+    color:#2F4F4F;
+	border:2px solid purple;
+	margin:1px 1px 1px 1px;
+	border-spacing:20px;
+	padding:20px;
+	
+	
+}
+#supportArt3Table th{
+    color:#2F4F4F;
+	border-bottom:2px solid blue;
+	margin:1px 1px 1px 1px;
+	border-spacing:20px;
+	padding:20px;
+	
+}
+#supportArt3Table td{
+	color:#2F4F4F;
+	border-bottom:2px solid blue ;
+	margin:1px 1px 1px 1px;
+	border-spacing:20px;
+	padding:20px;
+
+}
+
+#supportArt4 h4{
+	color:#2F4F4F;
+}
+#supportArt4{
+	color:green;
+}
+#supportArt4 address{
+
+	color:#191970;
+}
+#supportArt5 h4{
+	color:#1E90FF;
+}
+#supportArt5 {
+	color:#191970;
+}
+#supportArt5 ol{
+ list-style-type:upper-roman;
+}
+/*Styling tags of FAQ page*/
+/*Multiple Background images applied-CSS3 applied*/
+#faqBody{
+	color:purple;
+	background-image: url('https://img0.etsystatic.com/006/1/5839220/il_fullxfull.378421758_ox9c.jpg'),url('http://www.thejewelrygallery.com/wp-content/uploads/items/7/97/Tiffany-Co-Paloma-Picasso-Double-Heart-Infinity-Necklace-18kt-Yellow-Gold-131349820197-5-600x600.jpg');
+	background-position:top,bottom;
+	background-repeat:no-repeat;
+	background-size:2000px 1220px,2000px 1220px;
+	display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:wrap;
+  justify-content:space-around;
+	
+	
+}
+#faqBody header{
+	order:0;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+}
+#faqBody h4{
+	color:teal;
+}
+#faqBody section{
+	order:1;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+}
+#faqBody  a{
+	order:2;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+}
+	#faqBody footer{
+	order:3;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+
+#ListFAQ a:link{
+ 
+    font-size:14px;
+	color:green;
+	font-weight:bold;
+}
+#ListFAQ a:visited{
+	 font-size:14px;
+	color:darkred;
+	font-weight:bold;
+
+}
+
+
+/*Styling applied for tags in Products page*/ 
+/*Gradient applied*/
+#productsBody{
+ background-color:#AFEEEE;  
+  background: -webkit-linear-gradient(right, #FFFFFF , #AFEEEE); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(left, #FFFFFF , #AFEEEE); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(left, #FFFFFF , #AFEEEE); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, #FFFFFF , #AFEEEE); /* Standard syntax */
+   display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:wrap;
+  justify-content:space-around;
+  
+  
+}
+#productHeader h1{
+
+	color:#800080;
+}
+
+#productHeader{
+
+	background-image:url('http://i01.i.aliimg.com/wsphoto/v0/32335129843_3/Best-Fashion-Women-MultiLayer-Long-Pearl-Necklace-Pendant-Sweater-Chain-Jewelry.jpg');
+	background-repeat:no-repeat;
+ 	background-size:100% 100%;
+	order:0;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+	height:200px;
+
+	
+	}
+
+#productSect{
+	order:1;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+ #productsBody footer{
+	order:2;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+ 
+ }
+
+
+
+
+
+#productSect table{
+	border:0px solid;
+	width:80%;
+	height:80%;
+
+}
+#productSect tr,td{
+	border:0px;
+	width:400px;
+	height:100px;
+
+}
+
+#image1,#image2,#image3,#image4,#image5{
+	width:300px;
+	height:200px;
+
+}
+/* Styling tags in Order Page*/
+#orderBody{
+	background-color:azure;
+	color:purple;
+
+}
+#orderSection div{
+	text-align:center;
+}
+
+#orderSection{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:wrap;
+  justify-content:space-around;
+  
+  }
+#orderSection p{
+	
+	order:0;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+#orderSection article{
+	
+	order:1;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+
+/*Styling the product table*/
+#productOrderTable{
+border:1px solid purple;
+padding:1px 1px 1px 1px;
+}
+
+#productOrderTable{
+border:1px solid blue;
+margin-left:auto;
+margin-right:auto;
+width:800px;
+background-color:#B0FFFF;
+color:green;
+}
+#productOrderTable th{
+	color:green;
+	border:1px solid purple;
+	margin:1px 1px 1px 1px;
+	border-spacing:20px;
+	padding:20px;
+	text-align:center;
+}
+#productOrderTable  tr{
+	border:1px solid purple;
+	text-align:center;
+	color:green;
+}
+#productOrderTable  td{
+	border:1px solid purple;
+	color:green;
+	text-align:center;
+	height:0px;
+	
+}
+
+ /*Styling jobs page*/
+ 
+ #jobsBody{
+ background:url('http://i00.i.aliimg.com/wsphoto/v1/1755279056_5/Female-short-design-necklace-musical-note-elegant-simulated-pearl-gold-pendant-accessories-women-hot-new-necklace.jpg') no-repeat;
+ background-size:100% 100%;
+ color:indigo;
+ font-weight:bold;
+ }
+
+
+#jobsSection{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:wrap;
+  justify-content:space-around;
+
+ }
+ #jobsHeader{
+	order:0;
+	-webkit-flex:0 1 auto;
+	-mos-flex:0 1 auto;
+	flex:0 1 auto;
+	width:100%;
+ }
+#jobsArticle1{
+	order:1;
+	-webkit-flex:0 1 auto;
+	-mos-flex:0 1 auto;
+	flex:0 1 auto;
+ }
+ #jobsArticle2{
+	order:2;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+ }
+ #jobsArticle3
+{
+	order:3;
+	-webkit-flex:0 1 auto;
+	-mos-flex:0 1 auto;
+	flex:0 1 auto;
+} 
+ #jobsArticle4
+{
+	order:4;
+	-webkit-flex:0 1 auto;
+	-mos-flex:0 1 auto;
+	flex:0 1 400px;
+
+} 
+ #jobsArticle5
+{
+	order:5;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+} 
+ #jobsArticle6
+{
+	order:6;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+} 
+
+ #jobsAside{
+ order:7;
+ -webkit-flex:0 1 auto ;
+ -moz-flex:0 1 auto;
+ flex:0 1 auto;
+ width:100%;
+text-align:right;
+margin:10px;
+text-shadow:1px 1px cyan;
+ }
+ 
+
+ #jobsFoot{
+	order:8;
+	-weblit-flex: 1 auto;
+	-moz-flex:0 1 auto ;
+	flex:0 1 auto ;
+	width:100%;
+ }
+ 
+
+ /*Job and Multimedia Links added*/
+ .jobsID:link{
+	background-color:#2E8B57;       /*Assignment2:Changes-changed background color to seagreen*/
+	color:ivory;                    /*Assignment2:Changes-changed  color to ivory*/
+    text-decoration:none;
+ 
+}
+.jobsID:visited{
+
+	background-color:#ADFF2F;      /*Assignment2:Changes-changed background color to greenyellow*/
+}
+
+.jobsID:hover{
+	background-color:#008000;      /*Assignment2:Changes-changed background color to olive*/
+	color:#ADFF2F;                 /*Assignment2:Changes-changed  color to greenyellow*/
+	text-decoration:overline;
+}
+.multiID:link{
+	background-color:#F5F5DC;		/*Assignment2:Changes-changed  background color to beige*/
+	color:#00FFFF;					/*Assignment2:Changes-changed   color to cyan */
+
+}
+
+.multiID:visited{
+	background-color:steelblue;       /*Assignment2:Changes-changed  background color to blue*/
+	color:linen;
+	}
+
+.multiID:hover{
+	background-color:#483D8B;		/*Assignment2:Changes-changed  background color to darkslateblue*/
+	color:#DDA0DD;                  /*Assignment2:Changes-changed color to  plum*/
+	text-decoration:none;
+}
+
+
+ /*Pseudo Classes applied*/
+ 
+#jobsSection article:nth-of-type(2){
+	color:green;
+	text-shadow:1px 1px cyan;
+ 
+ }
+ #jobsArticle3 li:first-child{
+	color:red;
+ 
+ }
+  #jobsArticle3 li:last-child{
+	text-shadow:3px 3px turquoise;
+ 
+ }
+ #jobsSection article:last-of-type{
+	color:#008080;
+ }
+ #jobsSection article:first-of-type{
+	font-style:italic;
+ }
+ #jobsArticle4 ul li:nth-of-type(1):first-letter{
+	color:#0000FF;
+	font-size:30px;
+ }
+  #jobsArticle5 dd:first-line{
+	font-style:italic;
+	color:#808000;
+  }
+  
+   #jobsArticle5 li:nth-of-type(even){
+	color:#800000;
+ 
+ }
+ 
+ /*Styling multimedia page*/
+#multiSection{
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -moz-flex;
+  display: -webkit-flex;
+  display: flex;
+  -moz-flex-direction:column;
+  -webkit-flex-direction:column;
+  flex-direction: column;                      
+  flex-wrap:wrap;
+  justify-content:space-around;
+
+}
+#multiArticle{
+	order:0;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+
+}
+
+#multiArticle1{
+	order:1;
+	-webkit-flex:0 1 auto;
+	-moz-flex:0 1 auto;
+	flex:0 1 auto;
+}
+ 
+#multiSection  h3{
+	text-align:center;
+}
+.para1{
+color:purple;
+ -moz-columns:100px 3;
+-webkit-columns:100px 3; 
+columns:100px 3;
+}
+
+
+/*Applying Media Query to all pages*/
+
+/*Default style is applied to max-width:768 px and up for desktops, iPads and other tablets */
+/*Not specifically mentioned ,since it will use  default style*/
+
+/* 600 and 767 px width
+-- This is for desktops, iPads and other tablets */
+@media only screen and (min-width: 602px)
+and (max-width: 767px)
+
+{
+body,section,ul,dl,ol,li,div,#supportBody,#supportBody article,#multimediaBody,#multimediaBody  p,#jobsBody,#aboutBody,#indexID,#contactBody ,#orderBody,#newBody,#newArticle2 p,#productsBody,#faqBody{
+	color:indigo;
+	font-size:14px;
+	font-style:italic;
+	font-weight:bold;
+	
+}
+aside{
+	font-size:14px;
+	font-style:normal;
+}
+
+#indexID header h1,#aboutHeader h1,#contactHeader h1,#orderHeader h1,#productHeader h1,#supportHeader h1,#newHeader h1,#faqHeader h1,#jobsHeader h1,#multiHeader h1{
+	font-size: 18px;
+}
+
+
+#aboutHeader{
+    
+	background-size:767px 200px;
+	height:200px;
+	width:767px;
+}
+#aboutArticle aside,#aboutArticle0 aside{
+
+	width:300px;
+	height:60px;
+	line-height:15px;
+
+}
+
+footer p{
+
+	font-size: 18px;
+	
+}
+
+
+
+}
+
+/* 480px and 600
+-- It's for larger mobile phones such as HTC models
+-- and iPhone in landscapemode */
+@media only screen and (min-width: 480px) and (max-width: 600px)
+{
+  body,section,ul,dl,ol,li,div,#supportBody,#supportBody article,#multimediaBody,#multimediaBody  p,#jobsBody,#aboutBody,#indexID,#contactBody ,#orderBody,#newBody,#newArticle2 p,#productsBody,#faqBody{
+     color: mediumvioletred;
+     font-size: 12px;
+     font-weight: bold;
+    }
+	aside{
+	font-size:12px;
+	font-style:normal;
+}
+img,#figure1 img,#figure2 img,#figure3 img,#figure4 img,#figure5 img,#figure6 img,#figure7 img{
+	border:1px dashed teal;
+}
+
+
+
+
+#indexID header h1,#aboutHeader h1,#orderHeader h1,#contactHeader  h1,#productHeader  h1,#supportHeader h1,#newHeader h1,#faqHeader h1,#jobsHeader h1,#multiHeader h1{
+	font-size: 16px;
+}
+
+
+#aboutHeader{
+    
+	background-size:600px 180px;
+	height:180px;
+	width:600px;
+}
+#aboutArticle aside,#aboutArticle0 aside{
+
+	width:180px;
+	height:60px;
+	line-height:10px;
+
+}
+
+footer p{
+
+	font-size: 16px;
+	
+}
+
+}
+
+/* 320px and 480
+-- It's for the iPhone, iPod touch and other Adroid
+-- and mobile phones in portrait mode */
+@media only screen and (min-width: 320px) and (max-width: 479px)  {
+  body,section,ul,dl,ol,li,div,#supportBody,#supportBody article,#multimediaBody,#multimediaBody  p,#jobsBody,#aboutBody,#indexID,#contactBody ,#orderBody,#newBody,#newArticle2 p,#productsBody,#faqBody{
+
+     font-size: 10px;
+     font-weight: bold;
+	 color:chocolate;
+	
+    }
+	
+	aside{
+	font-size:10px;
+	font-style:normal;
+}
+img,#figure1 img,#figure2 img,#figure3 img,#figure4 img,#figure5 img,#figure6 img,#figure7 img{
+	border:1px dotted green;
+}
+
+
+
+#indexID header h1,#aboutHeader h1,#contactHeader  h1,#orderHeader h1,#productHeader h1,#supportHeader h1,#newHeader h1,#faqHeader h1,#jobsHeader h1,#multiHeader h1{
+	font-size: 14px;
+}
+
+
+#aboutHeader {
+    
+	background-size:470px 158px;
+	height:158px;
+	width:470px;
+}
+#aboutArticle aside,#aboutArticle0 aside{
+
+	width:180px;
+	height:50px;
+	line-height:10px;
+
+}
+
+footer p{
+
+	font-size: 14px;
+	
+}
+
+
+
+
+}
+
+/* Upto 320px;*/
+@media only screen and (max-width: 320px){
+  body,section,ul,dl,ol,li,div,#supportBody,#supportBody article,#multimediaBody,#multimediaBody  p,#jobsBody,#aboutBody,#indexID,#contactBody ,#orderBody,#newBody,#newArticle2 p,#productsBody,#faqBody{
+
+     font-size: 8px;
+     font-weight: bold;
+	 color:green;
+	
+    }
+	
+	aside{
+	font-size:8px;
+	font-style:italic;
+}
+img,#figure1 img,#figure2 img,#figure3 img,#figure4 img,#figure5 img,#figure6 img,#figure7 img{
+	border:1px dotted green;
+	width:40px;
+	height:40px;
+}
+
+#indexID header h1,#aboutHeader h1,#contactHeader  h1,#orderHeader h1,#productHeader h1,#supportHeader h1,#newHeader h1,#faqHeader h1,#jobsHeader h1,#multiHeader h1{
+	font-size: 12px;
+}
+
+
+#aboutHeader{
+    
+	background-size:320px 120px;
+	height:120px;
+	width:320px;
+}
+#aboutArticle aside,#aboutArticle0 aside{
+	margin:0px;
+	padding:0px;
+	width:120px;
+	height:30px;
+	line-height:10px;
+
+}
+
+footer p{
+
+	font-size: 12px;
+	
+}
+
+}

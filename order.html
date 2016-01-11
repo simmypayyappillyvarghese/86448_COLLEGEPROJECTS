@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name=" viewport" content=" width:device-width,initial-scale:1.0">
+<title>Zingaari|Order Page</title>
+<!--
+#Author:Simmy Payyappilly Varghese
+#ID:86448
+#Created by:07/31/2015
+-->
+<link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body id="orderBody">
+<header id="orderHeader">
+<br>
+<h1>Order Form</h1><br>
+<nav>
+	<a class="homeID"  href="index.html">Home</a>
+	<a class="aboutID" href="about.html"  target="newWindow">About Page</a>
+	<a class="contID" href="contact.html" target="newWindow">Contact Page</a>
+	<a class="newID" href="new.html" target="newWindow">What's New</a>
+	<a class="supportID" href="support.html" target="newWindow">Support</a>
+	<a class="faqID" href="faq.html" target="newWindow">FAQ</a>
+	<a class="productID" href="products.html" target="newWindow">Product</a>
+	<a class="orderID" href="order.html" target="newWindow">Order</a>
+	<a class="jobsID" href="jobs.html" target="newWindow">Jobs</a>
+	<a class="multiID" href="multimedia.html" target="newWindow">Multimedia</a>
+</nav>
+</header>
+<section id="orderSection"><br>
+<p>
+Please fill out your details in the order form below and select the product and quantity to place order :</p>
+<article><br>
+<div><ins>Customer Information</ins></div>
+<p>All the form entries are mandatory: </p>
+<form name="orderForm" action="http://itu.lewebcafe.com/sen910/form.php" method="post" >
+<table style="border:1px solid green;margin-left:auto;margin-right:auto;width:800px;background-color:#B0FFFF;color:teal;">
+<tr>
+<th style="text-align:right;">First Name:</th>
+<td style="height:0px"><input type="text" name="firstText" size="35" maxlength="30" value="Enter your first name"></td>
+</tr>
+<tr>
+<th style="text-align:right">Last Name:</th>
+<td style="height:0px"><input type="text" name="lastText" size="35" maxlength="50" value="Enter your last name"></td>
+</tr>
+<tr>
+<th style="text-align:right">Street Address ,City , State,Zip Code:</th>
+<td style="height:0px"><input type="text" name="addressText" size="35" maxlength="30" value="Enter Street Address"> <input type="text" name="cityText" size="35" maxlength="30" value="Enter city name"><br>
+<input type="text" name="stateText" size="4" maxlength="2"> <input type="text" name="zipText" size="9" maxlength="9" value='Zip Code'></td>
+</tr>
+
+<tr>
+<th style="text-align:right">Phone:</th>
+<td style="height:0px"><input type="text" name="PhoneText" size="14" maxlength="14"></td>
+</tr>
+<tr>
+<th style="text-align:right">Email:</th>
+<td style="height:0px"><input type="text" name="emailText" size="35" maxlength="40" value="Enter email address"></td>
+</tr>
+<tr>
+<th style="text-align:right">Credit Card No:</th>
+<td style="height:0px"><input type="text" name="creditText" size="16" maxlength="16"></td>
+</tr>
+<tr>
+   <th style="text-align:right">Credit Card Type:</th>
+   <td style="height:0px"><select name="cctype">
+	<option selected>Visa</option>
+	<option>Master Card</option>
+	<option>Discover Card</option>
+	</select>
+	</td>
+</tr>
+<tr>
+<th style="text-align:right;">Credit Card Expiration:</th>
+<td style="height:0px"><input type="text" name="creditExpire" size="7" maxlength="7" value="mm/yyyy"></td>
+</tr>
+<tr>
+<th style="text-align:right">Comments:</th>
+<td style="height:0px"><textarea name="creditExpire"  maxlength="100" ></textarea></td>
+</tr>
+</table>
+<p>Enter the product quantity  against respective category and click submit to place order :</p>
+<p>For more details on products view the <a href="products.html" target="newWindow" title="product page">Products Page</a></p>
+
+<table id="productOrderTable">
+<tr>
+<th>Category</th>
+<th>Description</th>
+<th>Unit Price</th>
+<th>Quantity</th>
+<th>Total price</th>
+</tr>
+<tr><th rowspan="2">1</th>
+<td>4-4.5mm Pearl 8 inch Women's watch.</td>
+<td>$100</td>
+<td><input type="text" name="quantityText1" size="5"></td>
+<td><input type="text" name="totalText1" size="25"></td>
+</tr>
+<tr><td>4-4.5mm Pearl 7inch Strand Bracelet with 14k Gold.</td>
+<td>$80</td>
+<td><input type="text" name="quantityText2" size="5"></td>
+<td><input type="text" name="totalText2" size="25"></td>
+</tr>
+<tr><td colspan="4">Subtotal $</td>
+<td><input type="text" name="subtotalText1" size="25"></td></tr>
+<tr><th rowspan="2">2</th>
+<td>3-3.5mm Pearl Earring with Zirconium stones</td>
+<td>$50</td>
+<td><input type="text" name="quantityText3" size="5"></td>
+<td><input type="text" name="totalText3" size="25"></td>
+</tr>
+<tr><td>3 Petal Pearl Earring with 14k Gold</td>
+<td>$50</td>
+<td><input type="text" name="quantityText4" size="5"></td>
+<td><input type="text" name="totalText4" size="25"></td>
+</tr>
+<tr><td colspan="4">Subtotal $</td>
+<td><input type="text" name="subtotalText2" size="25"></td></tr>
+<tr><th >3</th>
+<td>Pearl-Zircon Ring in 14k Gold</td>
+<td>$50</td>
+<td><input type="text" name="quantityText5" size="5"></td>
+<td><input type="text" name="totalText5" size="25"></td>
+</tr>
+<tr><td colspan="4">Subtotal $</td>
+<td><input type="text" name="subtotalText3" size="25"></td></tr>
+</table>
+<a href="#orderBody">Back To Top</a>
+<div id="buttons">
+<input  type="submit" value="Submit">
+<input type="reset">
+</div><br>
+</form>
+</article>
+</section>
+<footer>
+<nav>
+	<a class="homeID"  href="index.html">Home</a>
+	<a class="aboutID" href="about.html"  target="newWindow">About Page</a>
+	<a class="contID" href="contact.html" target="newWindow">Contact Page</a>
+	<a class="newID" href="new.html" target="newWindow">What's New</a>
+	<a class="supportID" href="support.html" target="newWindow">Support</a>
+	<a class="faqID" href="faq.html" target="newWindow">FAQ</a>
+	<a class="productID" href="products.html" target="newWindow">Product</a>
+	<a class="orderID" href="order.html" target="newWindow">Order</a>
+	<a class="jobsID" href="jobs.html" target="newWindow">Jobs</a>
+	<a class="multiID" href="multimedia.html" target="newWindow">Multimedia</a>
+</nav>
+<p>&copy; Zingaari Jewellery 2015</p>
+</footer>
+</body>
+</html>
